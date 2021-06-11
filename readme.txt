@@ -4,6 +4,10 @@
 
 Note:- Used Default db sqllite which is attached with the project
 
+Note:- create a virtual environment using 
+	"python3.6 -m venv venv"
+	after this run pip install -r requirments.txt
+
 1. To Add a class in db 
 	method = POST  url = http://127.0.0.1:8000/student/classes/
 	Post body = {"class_name":"Lkg"}
